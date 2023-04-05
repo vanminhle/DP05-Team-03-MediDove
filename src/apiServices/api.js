@@ -1,46 +1,36 @@
 import axios from 'axios';
 
-const getHomeServces = async () => {
+export const getHomeServces = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.departments;
+  return response.data[0].departments;
 };
 
-const getTeams = async () => {
+export const getTeams = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.team;
+  return response.data[0].team;
 };
 
-const getPlans = async () => {
+export const getPlans = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.plans;
+  return response.data[0].plans;
 };
 
-const getNewsAndFeeds = async () => {
+export const getNewsAndFeeds = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.news;
+  return response.data[0].news;
 };
 
-const getLinks = async () => {
+export const getLinks = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.links;
+  return response.data[0].links;
 };
 
-const getContact = async () => {
+export const getContact = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.contact;
+  return response.data[0].contact;
 };
 
 const getAboutUs = async () => {
   const response = await axios.get('https://642cd7c166a20ec9ce8f6e66.mockapi.io/api/medidove/data');
-  return response.aboutUs;
-};
-
-module.exports = {
-  getHomeServces,
-  getTeams,
-  getPlans,
-  getNewsAndFeeds,
-  getLinks,
-  getContact,
-  getAboutUs,
+  return response.data[0].aboutUs;
 };

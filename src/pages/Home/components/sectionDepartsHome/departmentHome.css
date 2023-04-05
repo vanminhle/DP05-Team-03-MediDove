@@ -1,3 +1,14 @@
+
+
+.heading1, .heading2, .heading3, .heading4, .heading5 {
+    color: #223645;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 0;
+    text-transform: normal;
+} 
+
 .heading1 {
 
 }
@@ -13,15 +24,6 @@
     font-size: 18px;
     font-weight: 500;
 }
-
-.heading1, .heading2, .heading3, .heading4, .heading5 {
-    color: #223645;
-    font-family: Poppins,sans-serif;
-    font-weight: 600;
-    line-height: 1.1;
-    margin-top: 0;
-    text-transform: normal;
-} 
 
 .paragraph {
     color: #647589;
