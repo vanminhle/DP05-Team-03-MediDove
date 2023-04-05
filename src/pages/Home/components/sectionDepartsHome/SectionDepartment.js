@@ -1,11 +1,31 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import NurseIcon from '../../../../img/sectionDepartHome/section-back-icon.png'
 import LineImg from '../../../../img/sectionDepartHome/section-title-line.png'
 import CardServices from './components/CardServices'
+import ServiceImg1 from '../../../../img/sectionDepartHome/service1.png'
+import ServiceImg2 from '../../../../img/sectionDepartHome/service2.png'
+
+
+
+import { getHomeServces } from '../../../../apiServices/api';
 
 import './departmentHome.css'
 
 const SectionDepartment = () => {
+
+  const [data, setData] = useState([]);
+
+  const fetchData = async () => {
+    const response = await getHomeServces();
+    console.log(response);
+    setData(response);
+    return response;
+  }
+
+
+  useEffect(() => {
+    fetchData();
+  }, [])
   return (
     <section className='servcies-area gray-bg pt-115 pb-90'>
       <div className='container'>
@@ -29,7 +49,17 @@ const SectionDepartment = () => {
             </div>
           </div>
         </div>
-        <CardServices/>
+        <div className='row'>
+          {
+            data.map((item) => {   
+              
+              return (
+                <CardServices key={item.id} title={item.title} 
+                    subtitle={item.body} readMore={item.more} icon={item.id}/>
+              )
+            })
+          }
+        </div>
       </div>
     </section>
   )
