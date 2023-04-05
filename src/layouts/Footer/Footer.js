@@ -1,7 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { FooterHome } from './Components/FooterHome/FooterHome';
 
 export default function Footer() {
-  return (
-    <div>Footer</div>
-  )
+  return <FooterHome />;
 }
