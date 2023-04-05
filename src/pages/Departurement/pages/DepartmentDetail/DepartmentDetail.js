@@ -1,5 +1,5 @@
 import React from 'react';
-import './DeparturementDetail.css';
+import './DepartmentDetail.css';
 export default function DepartmentDetail() {
   return (
     <section class='breadcrumb-bg pt-200 pb-180 page_header_bg'>
