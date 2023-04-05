@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  .breadcrumb-bg {
+    padding-bottom: 150px;
+    padding-top: 130px;
+  }
+}
+
+.breadcrumb-bg {
+  background-position: 50% !important;
+  background-size: cover !important;
+}
+
+.page_header_bg {
+  background: url('https://medi-dove.netlify.app/static/media/page-bg.19c1fbc541073bd8ef07.jpg');
+  background-repeat: no-repeat;
+}
+
+.pt-200 {
+  padding-top: 200px;
+}
+
+.pb-180 {
+  padding-bottom: 180px;
+}
+
+.page-breadcumb .breadcrumb-item a {
+  color: #95a3b3;
+  font-weight: 500;
+}
+
+.page-breadcumb .breadcrumb-item.active {
+  color: #e12454;
+  font-weight: 500;
+}
+
+.page-breadcumb .breadcrumb-item + .breadcrumb-item:before {
+  content: '|';
+}
