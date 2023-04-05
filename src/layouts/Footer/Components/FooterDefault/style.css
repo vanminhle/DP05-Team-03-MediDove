@@ -8,14 +8,28 @@ p {
   line-height: 26px;
   margin-bottom: 15px;
 }
-
 li {
   list-style: none;
 }
-
+.pos-rel {
+  position: relative;
+}
+.footer-map:before {
+  background-image: url(/src/assets/images/footer/footer-map.png);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  content: '';
+  left: 0;
+  margin: 0 auto;
+  min-height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+}
 .footer-top {
-  padding-top: 115px;
-  padding-bottom: 90px;
+  padding-top: 120px;
+  padding-bottom: 80px;
   background: #13232f;
 }
 .emergency-call-icon i {
@@ -197,4 +211,16 @@ li {
 }
 .h4_footer .footer-menu-2 ul li {
   float: inherit;
+}
+
+.blog-feeds-text h5 {
+  line-height: 1.3;
+  margin-bottom: 4px;
+  font-family: Rubik, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.blog-feeds-text h5 a {
+  color: #bdc1d5;
 }
