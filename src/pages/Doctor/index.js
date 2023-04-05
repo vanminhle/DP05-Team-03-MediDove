@@ -1,2 +1,2 @@
-export * from './components';
+export * from './DoctorOne';
 export * from './pages';

@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import HomePage from './pages/Home/HomePage';
-import Doctor from './pages/Doctor/Doctor';
 import DoctorDetail from './pages/Doctor/pages/DoctorDetail';
-import Departurement from './pages/Departurement/Department';
+import Departurement from './pages/Departurement/Departurement';
 import DepartmentDetail from './pages/Departurement/pages/DepartmentDetail/DepartmentDetail';
+import DoctorOne from './pages/Doctor/DoctorOne/DoctorOne';
 
 export const routes = createBrowserRouter([
   {
@@ -16,11 +16,11 @@ export const routes = createBrowserRouter([
       },
       {
         path: '/doctor',
-        element: <Doctor />,
+        element: <DoctorOne />,
         children: [
           {
             path: '',
-            element: <Doctor />,
+            element: <DoctorOne />,
           },
           {
             path: 'doctor_detail',
