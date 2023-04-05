@@ -3,8 +3,8 @@ import App from './App';
 import HomePage from './pages/Home/HomePage';
 import Doctor from './pages/Doctor/Doctor';
 import DoctorDetail from './pages/Doctor/pages/DoctorDetail';
-import Departurement from './pages/Departurement/Departurement';
-import DepartmentDetail from './pages/Departurement/pages/DeparturementDetail/DeparturementDetail';
+import Departurement from './pages/Departurement/Department';
+import DepartmentDetail from './pages/Departurement/pages/DepartmentDetail/DepartmentDetail';
 
 export const routes = createBrowserRouter([
   {
