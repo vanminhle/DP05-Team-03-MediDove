@@ -1,0 +1,139 @@
+.quoteCal {
+  background-image: url('./imgs/calculate-bg.ef8aed0096c22d49b5a5.png');
+  box-shadow: inset 0 0 0 1000px rgba(34, 54, 69,.9);
+  background-size: cover;
+  left: 0;
+  opacity: 1;
+  right: 0;
+  top: 0;
+  width: 100% !important;
+  padding: 50px 130px;
+}
+
+.quoteCal .contentLeft {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.quoteCal .contentLeft .quoteContent .quoteH1 {
+  color: white;
+  font-size: 45px;
+}
+
+.quoteCal .contentLeft .quoteContent .quoteH5 {
+  color: #b1c5d3;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.quoteCal .contentLeft .quoteContent .quoteBody {
+  font-size: 23px;
+  color: #b1c5d3;
+}
+
+.quoteCal .contentLeft .quoteContent {
+  margin: 20px 0 20px 0;
+}
+
+
+
+.quoteCal .contentLeft .sectionBtn {
+  background-color: #8fb569;
+    box-shadow: 0 8px 16px 0 hsla(90,34%,56%,.3);
+    border: none;
+    border-radius: 30px;
+    width: 50%;
+    height: 50px;
+    position: relative;
+}
+
+.quoteCal .contentLeft .sectionBtn a {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+
+}
+
+.quoteCal .contentLeft .sectionBtn span {
+  background: #fff;
+  border-radius: 100%;
+  color: #223645;
+  font-size: 20px;
+  font-weight: 600;
+  height: 40px;
+  width: 40px;
+  left: 4px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  transition: .3s;
+}
+
+.quoteCal .contentLeft .sectionBtn:hover {
+  background-color: #E12456;
+  box-shadow: 0 8px 16px 0 rgba(225,36,84,.2);
+}
+
+.quoteCal .contentRight {
+  height: 50%;
+}
+
+.quoteCal .contentRight .quoteForm {
+  background-color: white;
+  padding: 50px;
+  border: none;
+}
+
+.quoteCal .contentRight .quoteForm .select .formItem {
+  margin-bottom: 20px;
+  border-radius: 0;
+  height: 50px;
+  font-size: 14px;
+  color: #647589;
+}
+
+.quoteCal .contentRight .quoteForm .select .formItem .form-control {
+  border-radius: 0;
+  font-size: 14px;
+}
+
+.quoteCal .contentRight .quoteForm .select .formItem:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.quoteCal .contentRight .quoteForm .select .formItem .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+.quoteCal .contentRight .quoteForm .formBtn {
+  width: 100%;
+}
+
+.quoteCal .contentRight .formBtn .submitBtn {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  padding: 16px 24px 16px 24px;
+  background-color: #E12456;
+}
+
+.quoteCal .contentRight .formBtn .submitBtn a {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.quoteCal .contentRight .formBtn .submitBtn:hover {
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  padding: 16px 24px 16px 24px;
+  background-color: #8fb569;
+  transition: .3s;
+}
+
