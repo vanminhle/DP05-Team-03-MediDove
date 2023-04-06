@@ -1,14 +1,12 @@
 import React from 'react';
-
-import DepartmentIntroduction from './components/Department Introduction/departmentIntroduction';
-
 import { QuoteCalculator } from './components/Quote Calculator/quoteCalculator';
+import DepartmentHealthCare from './components/DepartmentHealthCare/departmentHealthCare';
 
 export default function Departurement() {
   return (
     <>
-      <DepartmentIntroduction />
       <QuoteCalculator />
+      <DepartmentHealthCare></DepartmentHealthCare>
     </>
   );
 }
