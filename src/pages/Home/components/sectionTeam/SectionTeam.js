@@ -18,6 +18,7 @@ const SectionTeam = () => {
   useEffect(() => {
     fetchData();
   }, []);
+  
   return (
     <section className='team-area pt-115 pb-55'>
       <div className='container'>

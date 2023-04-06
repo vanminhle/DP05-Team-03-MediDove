@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Member1 from '../../../../../img/sectionTeam/avatar/member1.png'
 
 const CardTeam = ({name, role, avatar}) => {
   return (

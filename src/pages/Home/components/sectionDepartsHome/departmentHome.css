@@ -1,5 +1,3 @@
-
-
 .heading1, .heading2, .heading3, .heading4, .heading5 {
     color: #223645;
     font-family: Poppins,sans-serif;
@@ -8,10 +6,6 @@
     margin-top: 0;
     text-transform: normal;
 } 
-
-.heading1 {
-
-}
 
 .heading3 {
     font-size: 26px;
@@ -113,4 +107,3 @@
 .service-box .service-link:hover {
     color: #8fb569;
 }
-

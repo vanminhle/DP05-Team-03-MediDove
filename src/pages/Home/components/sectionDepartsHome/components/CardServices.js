@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import ServiceImg1 from '../../../../../img/sectionDepartHome/service1.png';
 
 const CardServices = ({ title, subtitle, readMore, icon }) => {
   return (
