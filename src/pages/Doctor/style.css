@@ -140,10 +140,10 @@ img {
   transition-property: all;
 }
 .white-color {
-  color: #fff ;
+  color: #fff;
 }
 .btn-icon {
-  background-color: #e12454 ;
+  background-color: #e12454;
   border-radius: 30px !important;
   box-shadow: 0 8px 16px 0 rgb(225 36 84 / 20%);
   padding: 24px 50px 22px 84px !important ;
@@ -177,7 +177,7 @@ img {
 }
 .btn-icon:hover {
   background-color: #8fb569;
-  box-shadow: 0 8px 16px 0 rgba(125,178,73,.2);
+  box-shadow: 0 8px 16px 0 rgba(125, 178, 73, 0.2);
   color: #fff;
 }
 .btn-icon span {
@@ -330,7 +330,7 @@ img {
     font-size: 32px;
   }
   .cta-satisfied {
-    padding-left: 0 ;
+    padding-left: 0;
   }
   .single-satisfied h5,
   .single-satisfied p {
@@ -343,6 +343,9 @@ img {
   }
   p {
     width: 100%;
+  }
+  .team-link {
+    right: 20px;
   }
 }
 
@@ -364,7 +367,7 @@ img {
 }
 .team-link:hover {
   background: #e12454;
-  box-shadow: 0 8px 16px 0 rgba(225,36,84,.2);
+  box-shadow: 0 8px 16px 0 rgba(225, 36, 84, 0.2);
   color: #fff;
 }
 .team-content h3 {
@@ -387,7 +390,7 @@ img {
   position: absolute;
   text-align: center;
   top: 5px;
-  transition: .3s;
+  transition: 0.3s;
   width: 50px;
 }
 
