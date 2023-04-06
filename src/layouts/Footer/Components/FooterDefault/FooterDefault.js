@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style.css';
+import './../style.css';
 import HomeSingleFooterBlog from './HomeSingleFooterBlog';
 import FooterLogo from '../../../../assets/images/footer/footer-logo-3.png';
 
