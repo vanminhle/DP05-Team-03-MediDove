@@ -1,0 +1,312 @@
+.doctorDetailsArea {
+  padding: 70px 0 115px 0;
+}
+
+/* doctor left */
+
+.sectionIcon .sectionBackIcon {
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: -50px;
+  z-index: -1;
+}
+
+.sectionIcon .backIconLeft {
+  margin: 0;
+}
+
+.headingLeft {
+  position: relative;
+}
+
+.sectionText h5 {
+  color: #8fb569;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 28px;
+}
+
+.sectionText h1 {
+  color: #223645;
+  font-weight: 600;
+  font-size: 60px;
+  margin-bottom: 18px;
+}
+
+.sectionLine {
+  margin-bottom: 30px;
+}
+
+.details p {
+  line-height: 26px;
+  padding-right: 15px;
+  color: #647589;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.serviceFeatures {
+  margin-bottom: 25px;
+  max-width: 100%;
+}
+
+.serviceFeatures .featureLeft {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.serviceFeatures .featureRight {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.serviceFeatures .featurIcon {
+  margin-right: 30px;
+}
+
+.featureText h4 {
+  color: #223645;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.serviceFeatures ul li {
+  margin-bottom: 10px;
+}
+
+.serviceFeatures ul li i {
+  color: #8fb569;
+  margin-right: 5px;
+}
+
+/* doctor left */
+
+/* doctor right */
+
+.doctorDetails {
+  background-color: #fff;
+  border-top: 6px solid #8fb569;
+  box-shadow: 0 8px 16px 0 rgba(200, 183, 255, 0.2);
+  padding: 41px 50px 50px;
+  margin-bottom: 50px;
+}
+
+.doctorDetails .doctorInfo {
+  margin: 35px 0 35px 0;
+  text-align: center !important;
+}
+
+.doctorDetails .doctorInfo h3 a {
+  color: #223645;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.doctorDetails .doctorInfo h3 a:hover {
+  color: #8fb569;
+}
+
+.doctorDetails .doctorInfo .doctorRole {
+  color: #e12454;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.doctorDetails .socialIcon {
+  text-align: center;
+}
+
+.doctorDetails .socialIcon ul {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.doctorDetails .socialIcon ul li {
+  display: inline-block;
+  margin: 0 9.5px;
+}
+
+.qualifications h3 {
+  margin-bottom: 30px;
+  color: #223645;
+  font-size: 32px;
+  font-weight: 600;
+}
+.qualifications h3 a {
+  color: #223645;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.serviceList ul li a {
+  border-bottom: 2px solid #f2edff;
+  display: flex;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.serviceList ul li a .serviceTitle {
+  margin-left: 20px;
+}
+
+.serviceList ul li a .serviceTitle p {
+  color: #223645;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: 0.4s;
+  margin-bottom: 0;
+}
+
+.serviceList ul li a .serviceTitle p:hover {
+  color: #e12454;
+}
+
+.serviceList ul li a .serviceTitle span {
+  color: #647589;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.doctorDetails .formInput .formItem {
+  margin-bottom: 20px;
+  border-radius: 0;
+  height: 50px;
+  font-size: 14px;
+  color: #647589;
+  outline: none;
+}
+
+.doctorDetails .formInput input {
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 0;
+  height: 50px;
+  font-size: 14px;
+  color: #647589;
+  padding: 6px 12px 6px 12px;
+  border: var(--bs-border-width) solid var(--bs-border-color);
+  outline: none;
+}
+
+.doctorDetails .formBtn {
+  margin-bottom: -70px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.doctorDetails .formBtn .sectionBtn {
+  background-color: #e12456;
+  box-shadow: 0 8px 16px 0 rgba(225, 36, 84, 0.2);
+  border: none;
+  border-radius: 30px;
+  width: 80%;
+  height: 50px;
+  position: relative;
+}
+
+.doctorDetails .formBtn .sectionBtn a {
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: white;
+}
+
+.doctorDetails .formBtn .sectionBtn span {
+  background: #fff;
+  border-radius: 100%;
+  color: #223645;
+  font-size: 25px;
+  font-weight: 600;
+  height: 40px;
+  width: 40px;
+  left: 4px;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  transition: 0.3s;
+}
+
+.doctorDetails .formBtn .sectionBtn:hover {
+  background-color: #8fb569;
+  box-shadow: 0 8px 16px 0 hsla(90, 34%, 56%, 0.3);
+}
+
+.doctorDetails .qualifications .langIcon ul li {
+  display: inline-block;
+}
+
+.doctorDetails .qualifications .langIcon ul li a {
+  background: #eae4ff;
+  border-radius: 50%;
+  color: #223645;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 60px;
+  line-height: 60px;
+  margin: 10px 10px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 60px;
+}
+
+.doctorDetails .qualifications .langIcon ul li a:hover {
+  background: #8fb569;
+  color: white;
+}
+
+/* doctor right */
+
+.img,
+img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .sectionBtn {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .serviceTitle {
+    margin-left: 5px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .serviceIcon {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .serviceList ul li a {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .col-xl-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
