@@ -3,7 +3,6 @@ import Header from './layouts/Header/Header';
 import Footer from './layouts/Footer/Footer';
 import { Outlet } from 'react-router-dom';
 import DoctorOne from './pages/Doctor/DoctorOne/DoctorOne';
-import './pages/Doctor/style.css';
 
 function App() {
   return (
