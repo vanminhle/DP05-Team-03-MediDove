@@ -1,0 +1,190 @@
+/* Section OurPlan */
+.pricing-area {
+  background: #f4f9fc;
+  padding-top: 115px;
+  padding-bottom: 90px;
+}
+.pricing-area .section-ourPlan-title {
+  position: relative;
+  margin-bottom: 75px;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-icons img {
+  max-width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-icons .back-icon-left {
+  margin: 0;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-icons .section-ourPlan-back-icon {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -50px;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-text {
+  position: relative;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-text h5 {
+  margin-bottom: 28px;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-text h1 {
+  line-height: 1.2;
+  margin-bottom: 18px;
+  font-size: 60px;
+  letter-spacing: -0.3px;
+  color: #223645;
+}
+.pricing-area .section-ourPlan-title .section-ourPlan-line {
+  position: relative;
+}
+.pricing-area .pricing-menu {
+  float: right;
+}
+.pricing-area .pricing-menu .nav-pills {
+  background-color: #fff !important;
+  border: 2px solid #eae7ff !important;
+  border-radius: 40px !important;
+}
+.pricing-area .pricing-menu .nav-pills .nav-link {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #223645;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 30px 50px;
+  text-transform: uppercase;
+}
+.pricing-area .pricing-menu .nav-pills .nav-link-none-active {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  color: #223645;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 30px 50px;
+  text-transform: uppercase;
+}
+.pricing-area .pricing-menu .nav-pills .active {
+  background: #e12454;
+  border-radius: 40px;
+  padding-left: 50px;
+  transform: scale(1.04);
+  color: #fff;
+}
+.pricing-area .pricing-box {
+  margin-bottom: 30px;
+  background: #fff;
+  padding: 60px;
+}
+.pricing-area .pricing-box .pricing-thumb {
+  margin-bottom: 45px;
+}
+.pricing-area .pricing-box .pricing-thumb img {
+  max-width: 100%;
+  transition: all 0.3s ease-out 0s;
+}
+.pricing-area .pricing-box .pricing-content h1 {
+  font-size: 40px !important;
+  margin-bottom: 15px;
+  color: #223645;
+}
+.pricing-area .pricing-box .pricing-content p {
+  margin-bottom: 23px;
+  color: #647589;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.pricing-area .pricing-box .pricing-content .btn-icon {
+  background: #e12454;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-bottom: 0;
+  padding: 24px 40px;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  touch-action: manipulation;
+  transition: all 0.3s ease 0s;
+  -moz-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  background-color: #e12454;
+  border-radius: 30px;
+  box-shadow: 0 8px 16px 0 rgba(225, 36, 84, 0.2);
+  padding: 24px 50px 22px 84px;
+}
+.pricing-area .pricing-box .pricing-content .btn-icon:hover {
+  background: #8fb569;
+}
+.pricing-area .pricing-box .pricing-content .btn-icon span {
+  background: #fff;
+  border-radius: 100%;
+  color: #223645;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  left: 5px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  transition: 0.3s;
+  width: 50px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .pricing-area .section-ourPlan-title .section-ourPlan-text h1 {
+    font-size: 45px;
+  }
+  .pricing-box {
+    background: #fff;
+    padding: 24px !important;
+  }
+  .pricing-content h1 {
+    font-size: 40px !important;
+    margin-bottom: 15px;
+    color: #223645;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .pricing-area .section-ourPlan-title .section-ourPlan-text h1 {
+    font-size: 40px;
+  }
+  .pricing-menu {
+    display: inline-block;
+    float: none !important;
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .pricing-area .section-ourPlan-title .section-ourPlan-text h1 {
+    font-size: 32px;
+  }
+  .pricing-menu {
+    display: inline-block;
+    float: none !important;
+    margin-bottom: 30px;
+  }
+  .pricing-box {
+    background: #fff;
+    padding: 40px 30px !important;
+  }
+}/*# sourceMappingURL=ourPlan.css.map */
