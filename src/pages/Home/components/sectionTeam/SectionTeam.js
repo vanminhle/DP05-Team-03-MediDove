@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from 'react';
+import { React, useState, useEffect } from 'react';
 import './sectionTeam.css';
 import NurseIcon from '../../../../img/sectionTeam/section-back-icon.png';
 import LineTitleTeam from '../../../../img/sectionTeam/section-title-line.png';
@@ -18,7 +18,7 @@ const SectionTeam = () => {
   useEffect(() => {
     fetchData();
   }, []);
-  
+
   return (
     <section className='team-area pt-115 pb-55'>
       <div className='container'>
@@ -49,12 +49,9 @@ const SectionTeam = () => {
           </div>
         </div>
         <div className='row'>
-            { 
-                data.map((item) => (
-                    <CardTeam key={item.id} name={item.name} role={item.role} 
-                        avatar={item.id}/>
-                ))
-            }
+          {data.map((item) => (
+            <CardTeam key={item.id} name={item.name} role={item.role} avatar={item.id} />
+          ))}
         </div>
       </div>
     </section>
