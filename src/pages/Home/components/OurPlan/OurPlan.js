@@ -1,6 +1,8 @@
 import React from 'react';
 import './ourPlan.css';
+
 const OurPlan = () => {
+
   return (
     <section className='pricing-area'>
       <div className='container'>
