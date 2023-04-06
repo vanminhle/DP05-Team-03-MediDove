@@ -1,7 +1,24 @@
 import React from 'react';
+
 import './ourPlan.css';
 
+import { useEffect, useState } from 'react';
+import { getPlans } from '../../../../apiServices/api';
+
 const OurPlan = () => {
+
+    const [data, setData] = useState([]);
+
+    console.log(data);
+    const fetchData = async () => {
+      const response = await getPlans();
+      setData(response);
+      return response;
+    };
+  
+    useEffect(() => {
+      fetchData();
+    }, []);
 
   return (
     <section className='pricing-area'>
@@ -72,68 +89,25 @@ const OurPlan = () => {
                      role="tabpanel"
                      aria-labelledby="pills-home-tab">
                         <div className="row">
-                            <div className="col-xl-4 col-lg-4 col-md-6">
+                            {data.slice(0, 3).map((item) => (
+                                <div className="col-xl-4 col-lg-4 col-md-6" key={item.id}>
                                 <div className="pricing-box">
                                     <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
+                                        <img src={require(`../../../../img/ourPlan/ourPlan${item.id}.png`)}/>
                                     </div>
                                     <div className="pricing-content">
-                                        <h1>Professional</h1>
+                                        <h1>{item.title}</h1>
                                         <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
+                                            {item.body}
                                         </p>
                                         <a className="primary_btn btn-icon ml-0">
                                             <span>+</span>
-                                            Price: $
-                                            425.00
+                                            {item.price}
                                         </a>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="col-xl-4 col-lg-4 col-md-6">
-                                <div className="pricing-box">
-                                    <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
-                                    </div>
-                                    <div className="pricing-content">
-                                        <h1>Professional</h1>
-                                        <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
-                                        </p>
-                                        <a className="primary_btn btn-icon ml-0">
-                                            <span>+</span>
-                                            Price: $
-                                            425.00
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div className="col-xl-4 col-lg-4 col-md-6">
-                                <div className="pricing-box">
-                                    <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
-                                    </div>
-                                    <div className="pricing-content">
-                                        <h1>Professional</h1>
-                                        <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
-                                        </p>
-                                        <a className="primary_btn btn-icon ml-0">
-                                            <span>+</span>
-                                            Price: $
-                                            425.00
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                             
                         </div>
                     </div>
@@ -143,69 +117,28 @@ const OurPlan = () => {
                      role="tabpanel"
                      aria-labelledby="pills-home-tab">
                         <div className="row">
-                            <div className="col-xl-4 col-lg-4 col-md-6">
-                                <div className="pricing-box">
-                                    <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
-                                    </div>
-                                    <div className="pricing-content">
-                                        <h1>Professional1111</h1>
-                                        <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
-                                        </p>
-                                        <a className="primary_btn btn-icon ml-0">
-                                            <span>+</span>
-                                            Price: $
-                                            425.00
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div className="col-xl-4 col-lg-4 col-md-6">
+                        {data.splice(data.length/2, data.length/2).map((item) => (
+                            <div className="col-xl-4 col-lg-4 col-md-6" key={item.id}>
+                              console.log(item.id)
+                                {console.log(item.id)}
                                 <div className="pricing-box">
                                     <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
+                                        <img src={require(`../../../../img/ourPlan/ourPlan${(item.id)}.png`)}/>
                                     </div>
                                     <div className="pricing-content">
-                                        <h1>Professional</h1>
+                                        <h1>{item.title}</h1>
                                         <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
+                                            {item.body}
                                         </p>
                                         <a className="primary_btn btn-icon ml-0">
                                             <span>+</span>
-                                            Price: $
-                                            425.00
+                                            {item.price}
                                         </a>
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="col-xl-4 col-lg-4 col-md-6">
-                                <div className="pricing-box">
-                                    <div className="pricing-thumb">
-                                        <img src="https://medi-dove.netlify.app/img/pricing/pricing-thumb-1.png"/>
-                                    </div>
-                                    <div className="pricing-content">
-                                        <h1>Professional</h1>
-                                        <p>
-                                        Ut enim ad minim veniam,
-                                        quis istomw nostrud exercitation
-                                        ullamco laboris nisi ut aliquip ex ea commodo.
-                                        </p>
-                                        <a className="primary_btn btn-icon ml-0">
-                                            <span>+</span>
-                                            Price: $
-                                            425.00
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
+                        ))}
                         </div>
                     </div>
 
