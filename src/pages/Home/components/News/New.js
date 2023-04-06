@@ -53,7 +53,7 @@ const New = () => {
             <div className='col-xl-4 col-lg-6 col-md-6' key={items.id}>
               <div className='latest-news-box'>
                 <div className='latest-news-thumb'>
-                  <img src='https://medi-dove.netlify.app/img/blog/blog-thumb-1.jpg' />
+                  <img src={require(`../../../../img/News/new${(items.id)}.jpg`)}/>
                 </div>
                 <div className='latest-news-content'>
                   <div className='news-meta'>
