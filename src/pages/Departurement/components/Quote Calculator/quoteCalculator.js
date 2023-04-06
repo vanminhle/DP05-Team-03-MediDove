@@ -53,9 +53,9 @@ export const QuoteCalculator = () => {
               </div>
             </form>
             <div className='formBtn'>
-              <button class='btn btn-primary submitBtn' type='button'>
+              <a className='btn btn-primary submitBtn' type='button' href='#'>
                 <a>submit query</a>
-              </button>
+              </a>
             </div>
           </div>
         </div>

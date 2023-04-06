@@ -1,0 +1,21 @@
+.more-service-widget {
+  background-color: #fff;
+  border-top: 6px solid #8fb569;
+  box-shadow: 0 8px 16px 0 rgba(200, 183, 255, 0.2);
+  padding: 41px 50px 50px;
+  margin-bottom: 50px;
+}
+.more-service-widget .widget-title-box {
+  margin-bottom: 30px;
+}
+.more-service-widget .widget-title-box .widget-title {
+  color: #223645;
+  font-size: 40px;
+  margin-bottom: 10px;
+  display: inline-block;
+  position: relative;
+}
+.more-service-widget .more-service-list {
+  margin: 0;
+  padding: 0;
+}
