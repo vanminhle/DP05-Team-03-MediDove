@@ -44,7 +44,7 @@ const OurPlan = () => {
             <div className="pricing-menu">
               <ul className="nav nav-pills">
                 <li className="nav-item">
-                  <button class="nav-link active"
+                  <button className="nav-link active"
                     id="pills-home-tab"
                     data-bs-toggle="tab"
                     data-bs-target="#pills-home"
@@ -54,7 +54,7 @@ const OurPlan = () => {
                     aria-selected="true">monthly</button>
                 </li>
                 <li className="nav-item">
-                  <button class="nav-link"
+                  <button className="nav-link"
                     id="pills-profile-tab"
                     data-bs-toggle="tab"
                     data-toggle="pill"
@@ -102,8 +102,6 @@ const OurPlan = () => {
                 <div className="row">
                   {data.splice(data.length / 2, data.length / 2).map((item) => (
                     <div className="col-xl-4 col-lg-4 col-md-6" key={item.id}>
-                      console.log(item.id)
-                      {console.log(item.id)}
                       <div className="pricing-box">
                         <div className="pricing-thumb">
                           <img src={require(`../../../../img/ourPlan/ourPlan${(item.id)}.png`)} />
@@ -123,7 +121,6 @@ const OurPlan = () => {
                   ))}
                 </div>
               </div>
-
             </div>
           </div>
         </div>
