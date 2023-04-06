@@ -202,10 +202,13 @@
 }
 
 @media (max-width: 767px) {
-  .section-title-team .heading1 {
-    font-size: 32px;
-  }
-  .team-link {
-    right: 110px;
-  }
+    .team-thumb {
+        display: inline-block;
+    }
+    .section-title-team .heading1 {
+        font-size: 32px;
+    }
+    .team-link {
+        right: 20px;
+    }
 }
