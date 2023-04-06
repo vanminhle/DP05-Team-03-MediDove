@@ -5,12 +5,13 @@ import pdfIcon from '../../../../img/pdf.png';
 import docsIcon from '../../../../img/doc.png';
 import zipIcon from '../../../../img/zip.png';
 import './download.css';
+import MoreService from '../MoreService/MoreService';
 
 export const FreeDownload = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-lg-6 contentLeft'>
+        <div className='col-xl-7 contentLeft'>
           <div className='sectionImg'>
             <img src={doctorImage} alt='doctor' />
           </div>
@@ -45,7 +46,9 @@ export const FreeDownload = () => {
             </a>
           </div>
         </div>
-        <div className='col-lg-6'>123</div>
+        <div className='col-xl-5 col-lg-4'>
+          <MoreService />
+        </div>
       </div>
     </div>
   );
