@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../../../../../images/section-title-line.png';
-import image2 from '../../../../../images/section-back-icon.png';
-import image3 from '../../../../../images/member1.png';
-import image4 from '../../../../../images/member2.png';
-import image5 from '../../../../../images/member3.png';
-import image6 from '../../../../../images/member4.png';
-import image7 from '../../../../../images/member5.png';
-import image8 from '../../../../../images/member6.png';
+import image1 from '../../../../../img/doctor/section-title-line.png';
+import image2 from '../../../../../img/doctor/section-back-icon.png';
+import image3 from '../../../../../img/doctor/member1.png';
+import image4 from '../../../../../img/doctor/member2.png';
+import image5 from '../../../../../img/doctor/member3.png';
+import image6 from '../../../../../img/doctor/member4.png';
+import image7 from '../../../../../img/doctor/member5.png';
+import image8 from '../../../../../img/doctor/member6.png';
 
 const OurTeam = () => {
   return (

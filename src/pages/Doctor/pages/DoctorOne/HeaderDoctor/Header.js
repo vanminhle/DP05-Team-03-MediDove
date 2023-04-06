@@ -13,7 +13,7 @@ export default function Header() {
               </div>
             </div>
             <div class='col-lg-3 col-md-3 d-flex justify-content-start justify-content-md-end align-items-center'>
-              <div class='page-breadcumb'>
+              <div class='page-breadcrumb'>
                 <nav aria-label='breadcrumb'>
                   <ol class='breadcrumb '>
                     <li class='breadcrumb-item'>
