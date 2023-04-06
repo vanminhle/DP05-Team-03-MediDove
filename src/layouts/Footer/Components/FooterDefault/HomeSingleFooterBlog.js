@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BlogImagesOne from './../../../../../src/assets/images/blog/feeds-thumb-1.jpg';
-import BlogImagesTwo from './../../../../../src/assets/images/blog/feeds-thumb-2.jpg';
-import BlogImagesThree from './../../../../../src/assets/images/blog/feeds-thumb-3.jpg';
+import BlogImagesOne from './../../../../../src/img/footer/blog/feeds-thumb-1.jpg';
+import BlogImagesTwo from './../../../../../src/img/footer/blog/feeds-thumb-2.jpg';
+import BlogImagesThree from './../../../../../src/img/footer/blog/feeds-thumb-3.jpg';
 
 const HomeSingleFooterBlog = ({ image }) => {
   return (

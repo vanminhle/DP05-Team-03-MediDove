@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './../style.css';
 import HomeSingleFooterBlog from './HomeSingleFooterBlog';
-import FooterLogo from '../../../../assets/images/footer/footer-logo-3.png';
+import FooterLogo from '../../../../img/footer/footer/footer-logo-3.png';
 
 export const FooterDefault = () => {
   return (
