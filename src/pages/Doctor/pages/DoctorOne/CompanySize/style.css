@@ -1,0 +1,43 @@
+.counter-wrapper {
+  padding-top: 120px;
+  padding-bottom: 90px;
+  background-color: #f4f9fc;
+}
+.single-counter {
+  margin-bottom: 30px;
+}
+.single-counter h1 {
+  font-size: 80px;
+  color: #e12454;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+.counter-box h1 {
+  font-weight: 600;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 12px;
+}
+.single-counter h3 {
+  font-size: 24px;
+  color: #223645;
+  margin-top: 10px;
+  margin-bottom: 17px;
+}
+.single-counter p {
+  margin-bottom: 0;
+  color: #647589;
+  padding-right: 40px;
+}
+
+@media (max-width: 767px) {
+  .single-counter {
+    text-align: center;
+  }
+
+  .single-counter p {
+    margin-bottom: 0;
+    color: #647589;
+    padding-right: 0;
+  }
+}

@@ -1,7 +1,5 @@
-import React from 'react';
+import { CompanySize } from './../DoctorOne/CompanySize/CompanySize';
 
-const DoctorDetail = () => {
-  return <div>DoctorDetail</div>;
-};
-
-export default DoctorDetail;
+export default function DoctorDetail() {
+  return <CompanySize />;
+}
