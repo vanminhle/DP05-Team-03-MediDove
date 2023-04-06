@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import image1 from '../../../../images/section-title-line.png';
-import image2 from '../../../../images/section-back-icon.png';
-import image3 from '../../../../images/member1.png';
-import image4 from '../../../../images/member2.png';
-import image5 from '../../../../images/member3.png';
-import image6 from '../../../../images/member4.png';
-import image7 from '../../../../images/member5.png';
-import image8 from '../../../../images/member6.png';
+import image1 from '../../../../../images/section-title-line.png';
+import image2 from '../../../../../images/section-back-icon.png';
+import image3 from '../../../../../images/member1.png';
+import image4 from '../../../../../images/member2.png';
+import image5 from '../../../../../images/member3.png';
+import image6 from '../../../../../images/member4.png';
+import image7 from '../../../../../images/member5.png';
+import image8 from '../../../../../images/member6.png';
 
 const OurTeam = () => {
   return (
@@ -31,7 +31,7 @@ const OurTeam = () => {
             </div>
             <div className='col-xl-6 col-lg-5'>
               <div className='section-button text-end d-none d-lg-block pt-80'>
-                <Link to='/contact' className='primary_btn btn-icon ml-0'>
+                <Link to='/' className='primary_btn btn-icon ml-0'>
                   <span>+</span>Make Appointment
                 </Link>
               </div>
@@ -42,7 +42,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image3} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctor_Detail'>
                     +
                   </a>
                 </div>
@@ -56,7 +56,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image4} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctor_Detail'>
                     +
                   </a>
                 </div>
@@ -70,7 +70,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image5} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctorDetail'>
                     +
                   </a>
                 </div>
@@ -84,7 +84,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image6} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctor_Detail'>
                     +
                   </a>
                 </div>
@@ -98,7 +98,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image7} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctorDetail'>
                     +
                   </a>
                 </div>
@@ -112,7 +112,7 @@ const OurTeam = () => {
               <div className='team-box text-center mb-60'>
                 <div className='team-thumb mb-45 pos-rel'>
                   <img src={image8} alt='' />
-                  <a className='team-link' href='/doctorDetails'>
+                  <a className='team-link' href='/doctor/doctorDetail'>
                     +
                   </a>
                 </div>

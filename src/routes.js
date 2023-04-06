@@ -1,10 +1,10 @@
 import { createBrowserRouter } from 'react-router-dom';
 import App from './App';
 import HomePage from './pages/Home/HomePage';
-import DoctorDetail from './pages/Doctor/pages/DoctorDetail';
 import Departurement from './pages/Departurement/Department';
 import DepartmentDetail from './pages/Departurement/pages/DepartmentDetail/DepartmentDetail';
-import DoctorOne from './pages/Doctor/DoctorOne/DoctorOne';
+import DoctorDetail from './pages/Doctor/pages/DoctorDetail/DoctorDetail';
+import DoctorOne from './pages/Doctor/pages/DoctorOne/DoctorOne';
 
 export const routes = createBrowserRouter([
   {

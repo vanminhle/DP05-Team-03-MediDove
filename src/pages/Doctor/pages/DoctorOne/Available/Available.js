@@ -14,7 +14,7 @@ const Available = () => {
                 </div>
               </div>
               <div class='section-button section-button-left mb-30'>
-                <a class='primary_btn btn-icon ml-0' href='/contact'>
+                <a class='primary_btn btn-icon ml-0' href='/'>
                   <span>+</span>Make Appointment
                 </a>
               </div>
