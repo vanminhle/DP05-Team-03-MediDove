@@ -1,0 +1,151 @@
+.available-map::before {
+    background-image: url('../../../../img/section247Avaliable/map.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.primary-bg {
+    background-color: #13232f;
+}
+.section-title-avail .heading1 {
+    line-height: 1.2;
+    margin-bottom: 18px;
+}
+.color-white {
+    color: #fff;
+}
+
+
+.section-title-avail .heading5 {
+    margin-bottom: 28px;
+}
+
+.section-text-white {
+    color: #899dab;
+}
+
+.btn-icon .custom-plus {
+    background: #fff;
+    border-radius: 100%;
+    color: #223645;
+    font-size: 20px;
+    font-weight: 600;
+    height: 50px;
+    left: 5px;
+    line-height: 50px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    transition: .3s;
+    width: 50px;
+}
+
+.cta-satis {
+    padding-left: 129px;
+}
+
+.satisfied-patients .heading1 {
+    color: #8fb569;
+    margin-right: 20px;
+    float: left;
+    width: 140px;
+}
+
+.word-award .heading1 {
+    color: #8fb569;
+    margin-right: 20px;
+    float: left;
+    width: 140px;
+}
+
+.satisfied-patients .heading5 {
+    color: #fff;
+    /* margin-bottom: 15px; */
+}
+
+.word-award .heading5 {
+    color: #fff;
+    /* margin-bottom: 15px; */
+}
+
+.satisfied-patients .heading5 i {
+    margin-right: 5px;
+}
+
+.satisfied-patients .custom-parah {
+    color: #899dab;
+}
+
+.word-award .custom-parah {
+    color: #899dab;
+}
+
+.word-award .heading5 i {
+    margin-right: 5px;
+}
+
+.satisfied-patients .heading5, .satisfied-patients .custom-parah {
+    display: inline-block;
+    width: calc(100% - 160px);
+}
+
+.word-award .heading5, .word-award .custom-parah {
+    display: inline-block;
+    width: calc(100% - 160px);
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .section-text.section-text-white h1 {
+        font-size: 47px;
+    }
+    .cta-satis {
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .cta-satis {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .cta-satis {
+        padding-left: 0;
+    }
+
+    .satisfied-patients .heading1 {
+        float: none;
+    }
+
+    .word-award .heading1 {
+        float: none;
+    }
+
+    .satisfied-patients .heading5 {
+        display: block;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .word-award .heading5 {
+        display: block;
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .satisfied-patients .heading5, .satisfied-patients .custom-parah {
+        width: 100%;
+    }
+
+    .word-award .heading5, .word-award .custom-parah {
+        width: 100%;
+    }
+}
