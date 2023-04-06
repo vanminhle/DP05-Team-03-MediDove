@@ -1,8 +1,8 @@
 import React from 'react'
+
 import './TrustUs.css'
 
 const TrustUs = () => {
-
   return (
     <section className="cta-area-trust-us">
         <div className="container">

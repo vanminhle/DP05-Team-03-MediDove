@@ -1,7 +1,9 @@
 import React from 'react'
+
 import './New.css'
 
 const New = () => {
+
   return (
     <section className="latest-news-area">
         <div className="container">
