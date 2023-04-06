@@ -15,21 +15,27 @@ export const routes = createBrowserRouter([
                 element: <HomePage />,
             },
             {
-                path: "/doctor",
-                element: <Doctor />,
+                path: "doctor",
                 children: [
                     {
-                        path: "/doctor",
+                        path: "",
+                        element: <Doctor />,
+                    },
+                    {
+                        path: "doctor_detail",
                         element: <DoctorDetail />,
                     }
                 ]
             },
             {
-                path: "/departurement",
-                element: <Departurement />,
+                path: "department",
                 children: [
                     {
-                        path: "/departurement_detail",
+                        path: "",
+                        element: <Departurement />,
+                    },
+                    {
+                        path: "department_detail",
                         element: <DepartmentDetail />,
                     }
                 ]

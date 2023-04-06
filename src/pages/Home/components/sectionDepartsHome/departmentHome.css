@@ -1,6 +1,17 @@
+<<<<<<< HEAD
 .heading1 {
 
 }
+=======
+.heading1, .heading2, .heading3, .heading4, .heading5 {
+    color: #223645;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 0;
+    text-transform: normal;
+} 
+>>>>>>> 9361b39633293f8f987c67f85acbbd02bc7b7213
 
 .heading3 {
     font-size: 26px;
@@ -14,6 +25,7 @@
     font-weight: 500;
 }
 
+<<<<<<< HEAD
 .heading1, .heading2, .heading3, .heading4, .heading5 {
     color: #223645;
     font-family: Poppins,sans-serif;
@@ -23,6 +35,8 @@
     text-transform: normal;
 } 
 
+=======
+>>>>>>> 9361b39633293f8f987c67f85acbbd02bc7b7213
 .paragraph {
     color: #647589;
     font-size: 14px;
@@ -60,6 +74,10 @@
 .custorm-link {
     color: #10111e;
     outline: medium none;
+<<<<<<< HEAD
+=======
+    text-transform: capitalize;
+>>>>>>> 9361b39633293f8f987c67f85acbbd02bc7b7213
 }
 
 /* section title service */
@@ -105,10 +123,17 @@
     display: inline-block;
     font-weight: 500;
     margin-top: 5px;
+<<<<<<< HEAD
+=======
+    text-transform: capitalize;
+>>>>>>> 9361b39633293f8f987c67f85acbbd02bc7b7213
 }
 
 .service-box .service-content .heading3 .custorm-link:hover, 
 .service-box .service-link:hover {
     color: #8fb569;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9361b39633293f8f987c67f85acbbd02bc7b7213
