@@ -25,17 +25,18 @@
 }
 .cta-area-trust-us .cta-text-trust-us .section-title .section-text {
   position: relative;
-  color: white !important;
 }
 .cta-area-trust-us .cta-text-trust-us .section-title .section-text h5 {
   color: #899dab;
   margin-bottom: 28px;
+  color: #899dab !important;
 }
 .cta-area-trust-us .cta-text-trust-us .section-title .section-text h1 {
   font-size: 60px;
   letter-spacing: -0.3px;
   line-height: 1.2;
   margin-bottom: 18px;
+  color: white !important;
 }
 .cta-area-trust-us .cta-text-trust-us .section-button .btn-icon-green {
   background-color: #8fb569;

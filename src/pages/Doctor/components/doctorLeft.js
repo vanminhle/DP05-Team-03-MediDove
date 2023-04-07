@@ -10,7 +10,7 @@ const body =
 
 export const DoctorLeft = () => {
   return (
-    <div>
+    <div className="wrap_content_docdetail">
       <div className='headingLeft'>
         <div className='sectionIcon'>
           <img className='sectionBackIcon backIconLeft' src={backIcon}></img>

@@ -4,3 +4,4 @@ export * from './OurPlan';
 export * from './TrustUs';
 export * from './News';
 export * from './sectionAvailable247';
+export * from  './Banner';

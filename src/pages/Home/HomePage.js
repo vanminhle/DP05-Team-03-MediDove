@@ -1,15 +1,17 @@
 import React from 'react';
-import Department from './components/sectionDepartsHome/SectionDepartment';
 import SectionTeam from './components/sectionTeam/SectionTeam';
 import OurPlan from './components/OurPlan/OurPlan';
 import TrustUs from './components/TrustUs/TrustUs';
 import News from './components/News/News';
 import SectionAvailable from './components/sectionAvailable247/SectionAvailable';
+import Banner from './components/Banner/Banner'
+import HomeAboutArea from './components/About/HomeAbout'
 
 export default function HomePage() {
   return (
     <div>
-      <Department />
+      <Banner />
+      <HomeAboutArea/>
       <SectionTeam />
       <SectionAvailable />
       <OurPlan />

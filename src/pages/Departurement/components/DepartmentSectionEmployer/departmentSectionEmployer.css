@@ -86,10 +86,11 @@
 
 .btn-2:hover {
   background: #8fb569;
-  color: #fff;
+  color: #fff !important;
 }
+
 
 .btn-icon-green:hover {
   background: #e12454 !important;
-  color: #fff;
+  color: #fff !important;
 }

@@ -15,9 +15,11 @@ export const QuoteCalculator = () => {
                 please call (+00)888.666.88 so we can discuss prices with you.
               </p>
             </div>
-            <button type='button' className='btn btn-primary sectionBtn'>
-              <a href='#'>make appointment</a>
-              <span>+</span>
+            <button type='button' className='btn'>
+              <a className="primary_btn">
+                make appointment
+                <span>+</span>
+              </a>
             </button>
           </div>
           <div className='col-lg-6 contentRight'>

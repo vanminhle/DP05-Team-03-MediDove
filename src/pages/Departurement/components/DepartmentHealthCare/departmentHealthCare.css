@@ -13,6 +13,17 @@
   padding-top: 25px;
 }
 
+.service-box {
+  background: #fff;
+  padding: 53px;
+  transition: .4s;
+}
+
+.service-box:hover {
+  background-color: #fff;
+  box-shadow: 0 16px 32px 0 rgba(196,203,255,.3);
+}
+
 .mb-50 {
   margin-bottom: 50px;
 }
