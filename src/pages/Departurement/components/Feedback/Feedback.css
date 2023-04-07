@@ -53,15 +53,22 @@
   margin-bottom: 25px;
   text-transform: uppercase;
 }
-.testi-box .testi-author .test-author-icon {
+.testi-box .test-author-icon {
   background-color: #e7e7e7;
   border-radius: 50%;
   box-shadow: 0 8px 16px 0 rgba(71, 71, 71, 0.2);
   display: inline-block;
   margin-bottom: 10px;
 }
-.testi-box .testi-author .test-author-icon img {
+.testi-box .test-author-icon img {
   max-width: 100%;
   transition: all 0.3s ease-out 0s;
   vertical-align: middle;
-}/*# sourceMappingURL=Feedback.css.map */
+}
+
+@media (max-width: 767px) {
+  .testi-box .testi-content p {
+    font-size: 17px;
+    line-height: 26px;
+  }
+}
