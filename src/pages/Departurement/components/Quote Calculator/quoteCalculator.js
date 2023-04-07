@@ -16,7 +16,7 @@ export const QuoteCalculator = () => {
               </p>
             </div>
             <button type='button' className='btn btn-primary sectionBtn'>
-              <a href='/department'>make appointment</a>
+              <a href='#'>make appointment</a>
               <span>+</span>
             </button>
           </div>

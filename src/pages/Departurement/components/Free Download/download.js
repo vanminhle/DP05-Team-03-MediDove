@@ -4,6 +4,7 @@ import line from '../../../../img/section-title-line.png';
 import pdfIcon from '../../../../img/pdf.png';
 import docsIcon from '../../../../img/doc.png';
 import zipIcon from '../../../../img/zip.png';
+import Feedback from '../Feedback/Feedback';
 import './download.css';
 import MoreService from '../MoreService/MoreService';
 import DentalCate from '../SectionDentalCare/DentalCate';
@@ -47,6 +48,7 @@ export const FreeDownload = () => {
               </div>
             </a>
           </div>
+          <Feedback />
         </div>
         <MoreService />
       </div>

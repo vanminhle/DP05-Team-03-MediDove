@@ -180,3 +180,11 @@
     display: none;
   }
 }
+@media (max-width: 767px) {
+  .more-service-widget .widget-title-box .widget-title {
+    font-size: 26px;
+  }
+  .more-service-widget .service-form-btn {
+    display: none;
+  }
+}
