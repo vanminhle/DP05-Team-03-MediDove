@@ -20,22 +20,22 @@ export const DoctorRight = () => {
         <div className='socialIcon'>
           <ul>
             <li>
-              <i className='fa-brands fa-facebook-f'></i>
+              <i className='fab fa-facebook-f'></i>
             </li>
             <li>
-              <i className='fa-brands fa-twitter'></i>
+              <i className='fab fa-twitter'></i>
             </li>
             <li>
-              <i className='fa-brands fa-behance'></i>
+              <i className='fab fa-behance'></i>
             </li>
             <li>
-              <i className='fa-brands fa-linkedin'></i>
+              <i className='fab fa-linkedin'></i>
             </li>
             <li>
-              <i className='fa-brands fa-pinterest'></i>
+              <i className='fab fa-pinterest'></i>
             </li>
             <li>
-              <i className='fa-brands fa-youtube'></i>
+              <i className='fab fa-youtube'></i>
             </li>
           </ul>
         </div>
@@ -99,10 +99,12 @@ export const DoctorRight = () => {
           </select>
         </div>
         <div className='formBtn'>
-          <button type='button' className='btn btn-primary sectionBtn'>
-            request for a call
-            <span>+</span>
-          </button>
+            <button type='button' className='btn'>
+              <a className="primary_btn">
+                Register a call
+                <span>+</span>
+              </a>
+            </button>
         </div>
       </div>
       <div className='doctorDetails'>

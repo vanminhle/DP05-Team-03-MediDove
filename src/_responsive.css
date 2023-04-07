@@ -1,0 +1,239 @@
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 1900px) {
+  .quoteCal {
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .sliderres {
+    min-height: 700px !important;
+  }
+  .header-padding {
+    padding: 0 45px;
+  }
+  .header-lang span {
+    display: none;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .sliderres {
+    min-height: 700px !important;
+  }
+  .medical-icon-brand-2 {
+    top: 38%;
+  }
+  .about-right-side {
+    padding-top: 0 !important;
+  }
+  .about-text p {
+    line-height: 23px;
+  }
+  .about-title h1 {
+    font-size: 52px;
+  }
+  .header-padding {
+    padding: 0 0;
+  }
+  .header__menu.header-menu-white ul li:first-child {
+    margin-left: 0;
+  }
+  /* .slider-height-2 {
+    min-height: 800px;
+} */
+  .header__menu ul li {
+    margin-left: 26px;
+  }
+  .header__menu ul li ul.submenu {
+    width: 200px;
+  }
+  .quoteCal {
+    padding: 50px 80px !important;
+  }
+  .quoteCal .contentLeft .quoteContent .quoteH1 {
+    font-size: 40px;
+  }
+  .quoteCal .contentLeft .quoteContent .quoteBody {
+    font-size: 25px !important;
+  }
+  .hire-text {
+    padding: 38px !important; 
+    padding-top: 0 !important;
+  }
+}
+@media (min-width: 990px) {
+  .sticky_menu.h3_topBar {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+  .header__menu #mobile-menu {
+    display: none;
+  }
+  .h3_topBar {
+    padding-top: 15px;
+  }
+  .h3_topBar .sticky_menu {
+    padding: 15px;
+  }
+  .header-menu-area {
+    padding-bottom: 15px;
+  }
+  .side-toggle i {
+    font-size: 25px;
+  }
+  .quoteCal {
+    padding: 10px 8px !important;
+  }
+  .quoteCal .contentLeft .quoteContent .quoteH1 {
+    font-size: 28px;
+  }
+  .quoteCal .contentLeft .quoteContent .quoteH5 {
+    font-size: 14px;
+  }
+  .quoteCal .contentLeft .quoteContent .quoteBody {
+    font-size: 18px !important;
+  }
+  .hire-text {
+    padding: 30px !important;
+  }
+}
+@media (min-width: 778px) and (max-width: 990px) {
+  .sliderres {
+    background-position: 50% !important;
+    min-height: 620px !important;
+  }
+  .medical-icon-brand-2 {
+    display: none;
+  }
+  .about-right-side {
+    padding-top: 20px !important;
+    padding-left: 0 !important;
+  }
+  .about-text p {
+    line-height: 23px;
+  }
+  .about-title h1 {
+    font-size: 52px;
+  }
+  .header-info {
+    padding-left: 35px;
+  }
+  .header-info span {
+    margin-right: 30px;
+  }
+  .header-padding {
+    padding: 0 30px;
+    padding-top: 45px;
+  }
+  .header-cta-info {
+    margin-right: 16px;
+  }
+  .header-menu-area.header-menu-blue {
+    padding: 0;
+    background: 0;
+  }
+  .header-menu-area .mobile-menu.mobile-menu-white.mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+    top: 15px;
+  }
+  .header-menu-area .mobile-menu.mobile-menu-white.mean-container a.meanmenu-reveal span {
+    background: #fff;
+  }
+  .main-menu ul li:last-child {
+    margin-right: 0;
+  }
+}
+@media (max-width: 778px) {
+  .sliderres {
+    background-position: 50% !important;
+    min-height: 590px !important;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .hero-slide-caption h5 {
+    font-size: 16px !important;
+  }
+  .hero-slide-caption h1 {
+    font-size: 40px !important;
+  }
+  .hero-slide-caption p {
+    font-size: 12px !important;
+  }
+  .primary_btn {
+    font-size: 11px;
+  }
+  .btn-icon {
+    padding: 23px 16px 25px 61px;
+  }
+
+  .medical-icon-brand-2 {
+    display: none;
+  }
+  .about-right-side {
+    padding-top: 20px !important;
+    padding-left: 0 !important;
+  }
+  .about-text p {
+    line-height: 23px;
+  }
+  .about-title h1 {
+    font-size: 30px !important;
+  }
+  .header-menu-area.header-padding {
+    padding: 25px 0 25px;
+  }
+
+  .header-menu-area {
+    padding-top: 15px;
+  }
+  .header-menu-area.header-menu-blue {
+    padding: 25px 0;
+    background: 0;
+    padding: 0;
+  }
+  .header-menu-area .mobile-menu.mobile-menu-white.mean-container a.meanmenu-reveal {
+    border: 1px solid #fff;
+    color: #fff;
+    top: 15px;
+  }
+  .header-menu-area .mobile-menu.mobile-menu-white.mean-container a.meanmenu-reveal span {
+    background: #fff;
+  }
+  .header-menu-area.header-padding {
+    padding: 25px 0 25px;
+  }
+  .logo img {
+    width: 200px;
+  }
+  .play-btn {
+    margin-top: 30px;
+  }
+  .logo-circle::before {
+    display: none;
+  }
+  .section-text h1 {
+    font-size: 28px !important; 
+  }
+  .quoteCal .contentRight .quoteForm {
+    padding: 15px !important;
+  }
+  .hire-text {
+    padding: 20px 10px !important; 
+  }
+  .wrap_content_docdetail {
+    padding: 0 10px !important;
+  }
+
+  .wrap_content_docdetail .sectionText h1 {
+    font-size: 38px;
+  }
+}

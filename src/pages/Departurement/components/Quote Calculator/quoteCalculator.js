@@ -15,9 +15,11 @@ export const QuoteCalculator = () => {
                 please call (+00)888.666.88 so we can discuss prices with you.
               </p>
             </div>
-            <button type='button' className='btn btn-primary sectionBtn'>
-              <a href='#'>make appointment</a>
-              <span>+</span>
+            <button type='button' className='btn'>
+              <a className='primary_btn'>
+                make appointment
+                <span>+</span>
+              </a>
             </button>
           </div>
           <div className='col-lg-6 contentRight'>
@@ -47,7 +49,7 @@ export const QuoteCalculator = () => {
                     aria-describedby='basic-addon1'
                   />
                   <span className='input-group-text' id='basic-addon1'>
-                    <i className='fa-solid fa-phone-flip'></i>
+                    <i class='fas fa-phone'></i>
                   </span>
                 </div>
               </div>

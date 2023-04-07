@@ -63,6 +63,7 @@
 }
 .latest-news-area .section-new-button .btn-new-icon:hover {
   background: #8fb569;
+  color: #fff !important;
 }
 .latest-news-area .section-new-button .btn-new-icon span {
   background: #fff;
@@ -201,6 +202,7 @@
 }
 .latest-news-area .mk-call-btn .btn-call-green:hover {
   background: #e12454;
+  color: #fff !important;
 }
 
 @media (min-width: 1200px) {
