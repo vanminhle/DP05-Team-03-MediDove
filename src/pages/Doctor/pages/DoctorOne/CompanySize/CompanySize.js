@@ -1,7 +1,7 @@
 import { ItemCount } from './ItemCount';
 import './style.css';
 
-export const CompanySize = () => {
+const CompanySize = () => {
   return (
     <>
       <section className='counter-wrapper'>
@@ -16,3 +16,5 @@ export const CompanySize = () => {
     </>
   );
 };
+
+export default CompanySize;

@@ -1,5 +1,3 @@
-import { CompanySize } from './../DoctorOne/CompanySize/CompanySize';
-
 export default function DoctorDetail() {
-  return <CompanySize />;
+  return <h1>Detail</h1>;
 }
