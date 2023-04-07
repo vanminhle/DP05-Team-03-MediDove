@@ -57,22 +57,22 @@ export const FooterHome = () => {
                   <div className='footer-menu'>
                     <ul>
                       <li>
-                        <Link to='/servicesDetails'>Surgery and Radiology</Link>
+                        <Link to='/department/department_detail'>Surgery and Radiology</Link>
                       </li>
                       <li>
-                        <Link to='/servicesDetails'>Family Medicine</Link>
+                        <Link to='/department/department_detail'>Family Medicine</Link>
                       </li>
                       <li>
-                        <Link to='/servicesDetails'>Women’s Health</Link>
+                        <Link to='/department/department_detail'>Women’s Health</Link>
                       </li>
                       <li>
-                        <Link to='/servicesDetails'>Optician</Link>
+                        <Link to='/department/department_detail'>Optician</Link>
                       </li>
                       <li>
-                        <Link to='/servicesDetails'>Pediatrics</Link>
+                        <Link to='/department/department_detail'>Pediatrics</Link>
                       </li>
                       <li>
-                        <Link to='/servicesDetails'>Dermatology</Link>
+                        <Link to='/department/department_detail'>Dermatology</Link>
                       </li>
                     </ul>
                   </div>
@@ -86,22 +86,22 @@ export const FooterHome = () => {
                   <div className='footer-menu'>
                     <ul>
                       <li>
-                        <Link to='/servicesDetails'>Departments</Link>
+                        <Link to='/department/department_detail'>Departments</Link>
                       </li>
                       <li>
-                        <Link to='/doctors'>Our Doctors</Link>
+                        <Link to='/doctor'>Our Doctors</Link>
                       </li>
                       <li>
-                        <Link to='/blogs'>News</Link>
+                        <Link to='/'>News</Link>
                       </li>
                       <li>
-                        <Link to='/shop'>Shop</Link>
+                        <Link to='/'>Shop</Link>
                       </li>
                       <li>
-                        <Link to='/contact'>Contact Us</Link>
+                        <Link to='/'>Contact Us</Link>
                       </li>
                       <li>
-                        <Link to='/contact'>Book an Appointment</Link>
+                        <Link to='/'>Book an Appointment</Link>
                       </li>
                     </ul>
                   </div>

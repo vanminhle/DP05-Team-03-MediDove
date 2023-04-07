@@ -19,7 +19,7 @@ const CardServices = ({ title, subtitle, readMore, icon }) => {
               </Link>
             </h3>
             <p className='paragraph'>{subtitle}</p>
-            <Link className='service-link' to='/'>
+            <Link className='service-link' to='/department/department_detail'>
               {readMore}
             </Link>
           </div>

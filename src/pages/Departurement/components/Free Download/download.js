@@ -48,9 +48,7 @@ export const FreeDownload = () => {
             </a>
           </div>
         </div>
-        <div className='col-xl-5 col-lg-4'>
           <MoreService />
-        </div>
       </div>
     </div>
   );

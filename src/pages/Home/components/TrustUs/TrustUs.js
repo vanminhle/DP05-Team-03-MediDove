@@ -17,7 +17,7 @@ const TrustUs = () => {
                         </div>
 
                         <div className="section-button">
-                            <a className="btn-icon-green btn-icon" href="#">
+                            <a className="btn-icon-green btn-icon" href="/">
                                 <span>+</span>
                                 get a consultant
                             </a>

@@ -92,6 +92,7 @@
   font-size: 40px !important;
   margin-bottom: 15px;
   color: #223645;
+  text-transform: capitalize;
 }
 .pricing-area .pricing-box .pricing-content p {
   margin-bottom: 23px;

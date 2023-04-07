@@ -85,7 +85,7 @@ const OurPlan = () => {
                           <p>
                             {item.body}
                           </p>
-                          <a className="primary_btn btn-icon ml-0">
+                          <a href="/" className="primary_btn btn-icon ml-0">
                             <span>+</span>
                             {item.price}
                           </a>
@@ -111,7 +111,7 @@ const OurPlan = () => {
                           <p>
                             {item.body}
                           </p>
-                          <a className="primary_btn btn-icon ml-0">
+                          <a href="/" className="primary_btn btn-icon ml-0">
                             <span>+</span>
                             {item.price}
                           </a>

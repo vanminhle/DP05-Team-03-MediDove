@@ -39,7 +39,7 @@ const OurTeam = () => {
             </div>
             <div className='col-xl-6 col-lg-5'>
               <div className='section-button text-end d-none d-lg-block pt-80'>
-                <Link to='/' className='primary_btn btn-icon ml-0'>
+                <Link to='/doctor/doctor_detail' className='primary_btn btn-icon ml-0'>
                   <span>+</span>Make Appointment
                 </Link>
               </div>
