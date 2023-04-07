@@ -1,5 +1,10 @@
 .doctorDetailsArea {
-  padding: 70px 0 115px 0;
+  padding: 115px 0 115px 0;
+}
+
+.contact-map {
+  height: 670px;
+  width: 100%;
 }
 
 /* doctor left */
@@ -152,10 +157,11 @@
 }
 
 .serviceList ul li a {
-  border-bottom: 2px solid #f2edff;
   display: flex;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
+}
+
+.serviceList ul li:last-child {
+  border-bottom: none;
 }
 
 .serviceList ul li a .serviceTitle {
@@ -213,15 +219,15 @@
   box-shadow: 0 8px 16px 0 rgba(225, 36, 84, 0.2);
   border: none;
   border-radius: 30px;
-  width: 80%;
+  width: 70%;
   height: 50px;
   position: relative;
 }
 
-.doctorDetails .formBtn .sectionBtn a {
+.doctorDetails .formBtn .sectionBtn {
   font-size: 12px;
   font-weight: 500;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: white;
 }
 
