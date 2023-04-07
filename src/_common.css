@@ -1,0 +1,57 @@
+.primary_btn {
+    background: #e12454;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 0;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transition: all .3s ease 0s;
+    -moz-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.pos-rel {
+    position: relative;
+}
+.f-right {
+    float: right;
+}
+
+img {
+    max-width: 100%;
+    transition: all .3s ease-out 0s;
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+.pb-55 {
+    padding-bottom: 55px;
+}
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+h1 {
+    font-size: 60px;
+    letter-spacing: -.3px;
+    line-height: 1.22;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #223645;
+    font-family: Poppins,sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-top: 0;
+}

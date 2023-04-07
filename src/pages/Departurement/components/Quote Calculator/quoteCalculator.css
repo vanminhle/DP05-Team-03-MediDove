@@ -18,54 +18,63 @@
 
 .quoteCal .contentLeft .quoteContent .quoteH1 {
   color: white;
-  font-size: 45px;
+  margin-bottom: 18px;
 }
 
 .quoteCal .contentLeft .quoteContent .quoteH5 {
   color: #b1c5d3;
-  font-size: 13px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
   text-transform: uppercase;
 }
 
 .quoteCal .contentLeft .quoteContent .quoteBody {
-  font-size: 23px;
-  color: #b1c5d3;
+  color: #b4c8d7;
+  font-size: 30px;
+  line-height: 42px;
+  max-width: 680px;
+  padding-right: 35px;
 }
 
 .quoteCal .contentLeft .quoteContent {
   margin: 20px 0 20px 0;
 }
 
-.quoteCal .contentLeft .sectionBtn {
-  background-color: #8fb569;
-  box-shadow: 0 8px 16px 0 hsla(90, 34%, 56%, 0.3);
-  border: none;
-  border-radius: 30px;
-  width: 50%;
-  height: 50px;
-  position: relative;
+.quoteCal .contentLeft .btn {
+   text-align: left;
+   padding: 0;
+   border: none !important;
 }
 
-.quoteCal .contentLeft .sectionBtn a {
-  font-size: 12px;
+.quoteCal .contentLeft .btn a {
+  font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
+  border-radius: 30px;
+  color: #fff !important;
+  background-color: #8fb569;
+    box-shadow: 0 8px 16px 0 hsla(90,34%,56%,.3);
+    padding: 24px 50px 22px 84px;
+}
+.quoteCal .contentLeft .btn a:hover {
+  background-color: #e12456;
 }
 
-.quoteCal .contentLeft .sectionBtn span {
+.quoteCal .contentLeft .btn span {
   background: #fff;
   border-radius: 100%;
   color: #223645;
   font-size: 20px;
   font-weight: 600;
-  height: 40px;
-  width: 40px;
-  left: 4px;
-  line-height: 40px;
+  height: 50px;
+  left: 5px;
+  line-height: 50px;
   position: absolute;
   text-align: center;
-  top: 4px;
-  transition: 0.3s;
+  top: 5px;
+  transition: .3s;
+  width: 50px;
 }
 
 .quoteCal .contentLeft .sectionBtn:hover {
