@@ -50,7 +50,7 @@ const SectionTeam = () => {
         </div>
         <div className='row'>
           {data.map((item) => (
-            <CardTeam key={item.id} name={item.name} role={item.role} avatar={item.id} />
+            <CardTeam key={item.id} name={item.name} role={item.role} avatar={item.id} checkedPage="homepage"/>
           ))}
         </div>
       </div>
