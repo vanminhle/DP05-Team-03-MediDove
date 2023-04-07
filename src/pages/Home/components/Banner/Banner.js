@@ -2,8 +2,8 @@ import React from 'react';
 import Slider from 'react-slick';
 import '../../styles/Banner.css';
 import { Arrow } from './\bArrow';
+import VideoPopup from '../../../../components/common/VideoPopUp/VideoPopUp'
 import useGlobalContext from '../../../../hooks/useContextGlobal'
-import VideoPopup from '../../../../components/VideoPopUp/VideoPopUp'
 
 export default function Banner() {
   const popupValue = useGlobalContext();
