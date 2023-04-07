@@ -49,7 +49,7 @@ export default function DepartmentHealthCare() {
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_detail'>
                     Read More
                   </a>
                 </div>
@@ -68,7 +68,7 @@ export default function DepartmentHealthCare() {
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_detail'>
                     Read More
                   </a>
                 </div>
@@ -87,7 +87,7 @@ export default function DepartmentHealthCare() {
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_detail'>
                     Read More
                   </a>
                 </div>
@@ -100,13 +100,13 @@ export default function DepartmentHealthCare() {
                 </div>
                 <div className='service-content'>
                   <h3>
-                    <a href='/servicesDetails'>Blood Cancer</a>
+                    <a href='/department/department_detail'>Blood Cancer</a>
                   </h3>
                   <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_detail'>
                     Read More
                   </a>
                 </div>
@@ -119,13 +119,13 @@ export default function DepartmentHealthCare() {
                 </div>
                 <div className='service-content'>
                   <h3>
-                    <a href='/servicesDetails'>Neurology Sargery</a>
+                    <a href='/department/department_detail'>Neurology Sargery</a>
                   </h3>
                   <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_detail'>
                     Read More
                   </a>
                 </div>
@@ -138,13 +138,13 @@ export default function DepartmentHealthCare() {
                 </div>
                 <div className='service-content'>
                   <h3>
-                    <a href='/servicesDetails'>Allergic Issue</a>
+                    <a href='/department/department_detail'>Allergic Issue</a>
                   </h3>
                   <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip ex ea commodo.
                   </p>
-                  <a className='service-link' href='/servicesDetails'>
+                  <a class='service-link' href='/department/department_details'>
                     Read More
                   </a>
                 </div>

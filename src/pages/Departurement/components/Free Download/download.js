@@ -10,9 +10,9 @@ import DentalCate from '../SectionDentalCare/DentalCate';
 
 export const FreeDownload = () => {
   return (
-    <div className='container'>
+    <div className='container department-detail'>
       <div className='row'>
-        <div className='col-xl-7 col-lg-8 contentLeft'>
+        <div className='col-xl-7 col-lg-7 contentLeft'>
             <DentalCate/>
           <div className='sectionImg'>
             <img src={doctorImage} alt='doctor' />
@@ -48,9 +48,7 @@ export const FreeDownload = () => {
             </a>
           </div>
         </div>
-        <div className='col-xl-5 col-lg-4'>
-          <MoreService />
-        </div>
+        <MoreService />
       </div>
     </div>
   );

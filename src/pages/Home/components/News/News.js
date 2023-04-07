@@ -41,7 +41,7 @@ const New = () => {
           </div>
           <div className='col-xl-6 col-lg-5'>
             <div className='section-new-button'>
-              <a href='/' className='btn-new-icon'>
+              <a href="/" className='btn-new-icon'>
                 <span>+</span>
                 our blog
               </a>
@@ -58,12 +58,12 @@ const New = () => {
                 <div className='latest-news-content'>
                   <div className='news-meta'>
                     <span>
-                      <a href='/' className='news-tag'>
+                      <a className='news-tag' href='/'>
                         {items.content}
                       </a>
                     </span>
                     <span>
-                      <a href='/' className='news-tag'>
+                      <a class='news-tag' href='/'>
                         {items.topic}
                       </a>
                     </span>
@@ -95,7 +95,7 @@ const New = () => {
               ))}
             </div>
             <div className='mk-call-btn'>
-              <a href='/' className='btn-call-green'>
+              <a href="/" className='btn-call-green'>
                 <span>
                   <i className='fas fa-phone'></i>
                 </span>

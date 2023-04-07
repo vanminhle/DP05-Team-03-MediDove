@@ -41,7 +41,7 @@ const SectionTeam = () => {
           </div>
           <div className='col-xl-6 col-lg-5'>
             <div className='section-button text-end d-none d-lg-block pt-80 team_btn'>
-              <Link className='primary_btn btn-icon ml-0' to='/'>
+              <Link className='primary_btn btn-icon ml-0' to='/doctor/doctor_detail'>
                 <span className='custom-span-plus'>+</span>
                 Make Appointment
               </Link>
