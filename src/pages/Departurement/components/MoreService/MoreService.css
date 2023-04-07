@@ -141,7 +141,42 @@
   .more-service-widget {
     padding: 25px;
   }
-  .more-service-widget .widget-title {
+  .more-service-widget .widget-title-box .widget-title {
     font-size: 22px;
   }
-}/*# sourceMappingURL=MoreService.css.map */
+  .more-service-widget .more-service-list {
+    margin: 0;
+    padding: 0;
+  }
+  .more-service-widget .more-service-list .ul-more-service li a {
+    display: block;
+  }
+  .more-service-widget .more-service-list .ul-more-service li a .more-service-icon {
+    margin-bottom: 12px;
+  }
+  .more-service-widget .more-service-list .ul-more-service li a .more-service-title {
+    margin-left: 1px;
+  }
+  .more-service-widget .img-widget .banner-widget img {
+    width: 100%;
+  }
+  .more-service-widget .service-form-btn {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .more-service-widget .widget-title-box .widget-title {
+    font-size: 30px;
+  }
+  .img-widget .banner-widget {
+    text-align: center !important;
+  }
+}
+@media (max-width: 767px) {
+  .more-service-widget .widget-title-box .widget-title {
+    font-size: 26px;
+  }
+  .more-service-widget .service-form-btn {
+    display: none;
+  }
+}

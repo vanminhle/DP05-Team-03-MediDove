@@ -3,7 +3,7 @@ import "./MoreService.css";
 
 const MoreService = () => {
   return (
-    <div className='col-xl-5 col-lg-4'>
+    <div className='col-xl-5 col-lg-5'>
       <div className="more-service-widget">
         <div className="widget-title-box">
           <h3 className="widget-title">More Services</h3>
