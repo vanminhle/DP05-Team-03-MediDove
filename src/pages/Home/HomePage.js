@@ -3,7 +3,7 @@ import Department from './components/sectionDepartsHome/SectionDepartment';
 import SectionTeam from './components/sectionTeam/SectionTeam';
 import OurPlan from './components/OurPlan/OurPlan';
 import TrustUs from './components/TrustUs/TrustUs';
-import New from './components/News/New';
+import News from './components/News/News';
 import SectionAvailable from './components/sectionAvailable247/SectionAvailable';
 
 export default function HomePage() {
@@ -11,10 +11,10 @@ export default function HomePage() {
     <div>
       <Department />
       <SectionTeam />
-      <SectionAvailable/>
+      <SectionAvailable />
       <OurPlan />
       <TrustUs />
-      <New />
+      <News />
     </div>
   );
 }

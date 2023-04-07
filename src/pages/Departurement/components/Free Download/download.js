@@ -23,21 +23,21 @@ export const FreeDownload = () => {
             <img src={line} alt='line' />
           </div>
           <div className='downloadArea'>
-            <a class='download-box ' href='#'>
+            <a className='download-box ' href='/'>
               <div className='boxItem'>
                 <img src={pdfIcon} alt='line' />
                 <span className='link'>The Balanced Care Method Flyer.pdf</span>
                 <span className='data'>57KB</span>
               </div>
             </a>
-            <a class='download-box ' href='#'>
+            <a className='download-box ' href='/'>
               <div className='boxItem'>
                 <img src={docsIcon} alt='line' />
                 <span className='link'>The Balanced Care Method Flyer.pdf</span>
                 <span className='data'>57KB</span>
               </div>
             </a>
-            <a class='download-box ' href='#'>
+            <a className='download-box ' href='/'>
               <div className='boxItem'>
                 <img src={zipIcon} alt='line' />
                 <span className='link'>The Balanced Care Method Flyer.pdf</span>

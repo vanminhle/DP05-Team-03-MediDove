@@ -10,9 +10,9 @@ const HomeSingleFooterBlog = ({ image }) => {
       <div className='single-blog-feeds mb-3'>
         <div className='blog-feeds-thumb'>
           <Link to='/blogDetails'>
-            {image == 1 && <img src={BlogImagesOne} alt='' />}
-            {image == 2 && <img src={BlogImagesTwo} alt='' />}
-            {image == 3 && <img src={BlogImagesThree} alt='' />}
+            {image === '1' && <img src={BlogImagesOne} alt='' />}
+            {image === '2' && <img src={BlogImagesTwo} alt='' />}
+            {image === '3' && <img src={BlogImagesThree} alt='' />}
           </Link>
         </div>
         <div className='blog-feeds-text'>
