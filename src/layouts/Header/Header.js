@@ -25,7 +25,7 @@ const Header = () => {
                      </div>
                      <div className="col-xl-5 col-lg-5 col-md-4">
                         <div className="header-top-right-btn f-right">
-                           <Link to="/contact" className="primary_btn btnc">Make Appointment</Link>
+                           <Link to="" className="primary_btn btnc">Make Appointment</Link>
                         </div>
                      </div>
                   </div>
@@ -70,62 +70,24 @@ const Header = () => {
                                  <li><Link to="/">Home +</Link>
                                     <ul className="submenu">
                                        <li><Link to="/">Home style 1</Link></li>
-                                       <li><Link to="/homeTwo">Home style 2</Link></li>
-                                       <li><Link to="/homeThree">Home style 3</Link></li>
-                                       <li><Link to="/homeFour">Home style 4</Link></li>
-                                       <li><Link to="/homeFive">Home style 5</Link></li>
+                                       <li><Link to="">Home style 2</Link></li>
+                                       <li><Link to="">Home style 3</Link></li>
+                                       <li><Link to="">Home style 4</Link></li>
+                                       <li><Link to="">Home style 5</Link></li>
                                     </ul>
                                  </li>
                                  <li><Link to="/department">Department +</Link>
                                     <ul className="submenu">
-                                       <li><Link to="/services">Services 01</Link></li>
-                                       <li><Link to="/servicesTwo">Services 02</Link></li>
+                                       <li><Link to="/department">Services 01</Link></li>
+                                       <li><Link to="">Services 02</Link></li>
                                        <li><Link to="/department/department_detail">Services Details</Link></li>
                                     </ul>
                                  </li>
                                  <li><Link to="/doctor">Doctors +</Link>
                                     <ul className="submenu">
-                                       <li><Link to="/doctors">Doctors 01</Link></li>
-                                       <li><Link to="/doctorsTwo">Doctors 02</Link></li>
+                                       <li><Link to="/doctor">Doctors 01</Link></li>
+                                       <li><Link to="">Doctors 02</Link></li>
                                        <li><Link to="/doctor/doctor_detail">Doctors Details</Link></li>
-                                    </ul>
-                                 </li>
-                                 <li><Link to="/shop">Shop</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/shop">Shop Page</Link></li>
-                                       <li><Link to="/shopDetails">Shop Details</Link></li>
-                                       <li><Link to="/shoppingCart">Shopping Cart</Link></li>
-                                       <li><Link to="/checkout">Checkout</Link></li>
-                                       <li><Link to="/wishList">Wishlist</Link></li>
-                                       <li><Link to="/login">Login</Link></li>
-                                       <li><Link to="/register">Register</Link></li>
-                                    </ul>
-                                 </li>
-                                 <li><Link to="/blogs">News +</Link>
-                                    <ul className="submenu">
-                                       <li><Link to="/blogs">Blog Right Sidebar</Link></li>
-                                       <li><Link to="/blogLeftSideBar">Blog Left Sidebar</Link></li>
-                                       <li><Link to="/blogNoSideBar">Blog No Sidebar</Link></li>
-                                       <li><Link to="/blogTwoColumn">Blog 2 Column</Link></li>
-                                       <li><Link to="/blogTwoMasonry">Blog 2 Col Masonry</Link></li>
-                                       <li><Link to="/blogThreeColumn">Blog 3 Column</Link></li>
-                                       <li><Link to="/blogThreeColMasonry">Blog 3 Col Masonry</Link></li>
-                                       <li><Link to="/blogDetails">Blog Details</Link></li>
-                                       <li><Link to="/blogDetailsLeftSidebar">Details Left Sidebar</Link></li>
-                                       <li><Link to="/blogDetailsAudio">Details Audio</Link></li>
-                                       <li><Link to="/blogDetailsVideo">Details Video</Link></li>
-                                       <li><Link to="/blogDetailsGallery">Details Gallery</Link></li>
-                                    </ul>
-                                 </li>
-                                 <li><a href="#">Pages +</a>
-                                    <ul className="submenu">
-                                       <li><Link to="/about">About</Link></li>
-                                       <li><Link to="/appoinment">Appoinment</Link></li>
-                                       <li><Link to="/portfolioTwoColumn">Portfolio 2 column</Link></li>
-                                       <li><Link to="/portfolioThreeColumn">Portfolio 3 column</Link></li>
-                                       <li><Link to="/portfolioSlider">Portfolio Slider</Link></li>
-                                       <li><Link to="/contact">Contact</Link></li>
-                                       <li><Link to="/notMatch">404 page</Link></li>
                                     </ul>
                                  </li>
                               </ul>

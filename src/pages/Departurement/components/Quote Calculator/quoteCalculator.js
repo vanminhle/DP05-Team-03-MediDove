@@ -16,7 +16,7 @@ export const QuoteCalculator = () => {
               </p>
             </div>
             <button type='button' className='btn'>
-              <a className="primary_btn">
+              <a className='primary_btn'>
                 make appointment
                 <span>+</span>
               </a>
@@ -49,7 +49,7 @@ export const QuoteCalculator = () => {
                     aria-describedby='basic-addon1'
                   />
                   <span className='input-group-text' id='basic-addon1'>
-                    <i className='fa-solid fa-phone-flip'></i>
+                    <i class='fas fa-phone'></i>
                   </span>
                 </div>
               </div>

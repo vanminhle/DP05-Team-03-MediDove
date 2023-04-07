@@ -58,7 +58,7 @@
     padding: 24px 50px 22px 84px;
 }
 .quoteCal .contentLeft .btn a:hover {
-  background-color: #e12456;
+  background-color: #e12456 !important;
 }
 
 .quoteCal .contentLeft .btn span {
@@ -141,4 +141,5 @@
   padding: 16px 24px 16px 24px;
   background-color: #8fb569;
   transition: 0.2s;
+  color: #fff !important;
 }

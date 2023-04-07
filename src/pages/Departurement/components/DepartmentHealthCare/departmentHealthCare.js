@@ -81,7 +81,7 @@ export default function DepartmentHealthCare() {
                 </div>
                 <div className='service-content'>
                   <h3>
-                    <a href='/servicesDetails'>service-content</a>
+                    <a href='/servicesDetails'>Service Content</a>
                   </h3>
                   <p>
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
