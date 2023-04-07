@@ -1,0 +1,106 @@
+.mb-80 {
+    margin-bottom: 80px;
+}
+
+.dental-care-thumb .img-dental {
+    width: 100%;
+}
+
+.title-dental-care .heading5 {
+    margin-bottom: 25px;
+}
+
+.title-dental-care .heading1 {
+    line-height: 1.2;
+    margin-bottom: 32px;
+}
+
+.dental-detail-text .custom-para {
+    line-height: 26px;
+    padding-right: 16px;
+}
+
+.green-color {
+    color: #8fb569;
+}
+
+.text-up-case {
+    text-transform: uppercase;
+}
+.overflow {
+    overflow: hidden;
+}
+
+.f-left {
+    float: left;
+}
+
+.feature-box {
+    margin-right: 70px;
+}
+
+.feature-icon {
+    margin-right: 30px;
+}
+
+.mr-0 {
+    margin-right: 0 !important;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.mb-55 {
+    margin-bottom: 55px;
+}
+
+.feature-list .heading3 {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 23px;
+    text-transform: uppercase;
+}
+
+.feature-list .list-check li {
+    margin-bottom: 12px;
+}
+
+.feature-list .list-check li i {
+    color: #8fb569;
+    margin-right: 5px;
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .feature-box {
+        margin-right: 25px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .title-dental-care .heading1 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title-dental-care .heading1 {
+        font-size: 32px;
+    }
+
+    .sectionImg img {
+        width: 100%;
+    }
+
+    .contentLeft .download-box {
+        padding: 18px 10px;
+    }
+
+    .contentLeft .download-box .boxItem .data {
+        display: none;
+    }
+
+    .contentLeft .download-box .boxItem img {
+        margin-right: 16px;
+    }
+}

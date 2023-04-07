@@ -6,12 +6,14 @@ import docsIcon from '../../../../img/doc.png';
 import zipIcon from '../../../../img/zip.png';
 import './download.css';
 import MoreService from '../MoreService/MoreService';
+import DentalCate from '../SectionDentalCare/DentalCate';
 
 export const FreeDownload = () => {
   return (
     <div className='container'>
       <div className='row'>
-        <div className='col-xl-7 contentLeft'>
+        <div className='col-xl-7 col-lg-8 contentLeft'>
+            <DentalCate/>
           <div className='sectionImg'>
             <img src={doctorImage} alt='doctor' />
           </div>
