@@ -49,8 +49,8 @@
                 }
             }
         }
-        .ul-more-service:last-child{
-            border: 0 !important;
+        .ul-more-service li:last-child a{
+            border-bottom: 0 !important;
         }
     }
     .service-contact-form{

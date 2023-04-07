@@ -42,8 +42,8 @@
   text-transform: uppercase;
   transition: 0.4s;
 }
-.more-service-widget .more-service-list .ul-more-service:last-child {
-  border: 0 !important;
+.more-service-widget .more-service-list .ul-more-service li:last-child a {
+  border-bottom: 0 !important;
 }
 .more-service-widget .service-contact-form .contact-input {
   position: relative;
