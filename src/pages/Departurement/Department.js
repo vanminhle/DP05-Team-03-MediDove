@@ -5,8 +5,9 @@ import DepartmentHealthCare from './components/DepartmentHealthCare/departmentHe
 export default function Departurement() {
   return (
     <>
-      <DepartmentHealthCare />
+      <DepartmentHealthCare></DepartmentHealthCare>
       <QuoteCalculator />
+      <DepartmentSectionEmployer></DepartmentSectionEmployer>
     </>
   );
 }
