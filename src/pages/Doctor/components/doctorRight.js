@@ -49,7 +49,14 @@ export const DoctorRight = () => {
         <div className='serviceList'>
           <ul>
             <li>
-              <a href='#'>
+              <a
+                href='#'
+                style={{
+                  borderBottom: '2px solid #f2edff',
+                  marginBottom: '20px',
+                  paddingBottom: '20px',
+                }}
+              >
                 <div className='serviceIcon'>
                   <img src={serviceIcon1} alt='service1' />
                 </div>
@@ -93,7 +100,7 @@ export const DoctorRight = () => {
         </div>
         <div className='formBtn'>
           <button type='button' className='btn btn-primary sectionBtn'>
-            <a href='#'>request for a call</a>
+            request for a call
             <span>+</span>
           </button>
         </div>

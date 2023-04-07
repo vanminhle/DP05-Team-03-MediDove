@@ -7,7 +7,7 @@ import BlogImagesThree from './../../../../../src/img/footer/blog/feeds-thumb-3.
 const HomeSingleFooterBlog = ({ image }) => {
   return (
     <>
-      <div className='single-blog-feeds mb-3'>
+      <div className='single-blog-feeds mb-4'>
         <div className='blog-feeds-thumb'>
           <Link to='/blogDetails'>
             {image === '1' && <img src={BlogImagesOne} alt='' />}
