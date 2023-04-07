@@ -15,7 +15,7 @@ li {
   position: relative;
 }
 .footer-map:before {
-  background-image: url(/src/assets/images/footer/footer-map.png);
+  background-image: url(/src/img/footer/footer/footer-map.png);
   background-position: 50%;
   background-repeat: no-repeat;
   content: '';
@@ -257,4 +257,15 @@ li {
   .emergency-call span {
     font-size: 30px;
   }
+}
+
+.single-blog-feeds a:focus,
+a:hover {
+  color: #8fb569 !important;
+  text-decoration: none !important;
+}
+
+.single-blog-feeds .button,
+a {
+  transition: all 0.3s ease-out 0s !important;
 }

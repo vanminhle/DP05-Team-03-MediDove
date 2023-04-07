@@ -155,7 +155,7 @@
   margin-right: 5px;
 }
 .latest-news-area .recent-news-list .latest-news-content .meta-date i .fa-calendar:before {
-  content: "\f133";
+  content: '\f133';
 }
 .latest-news-area .mk-call-btn {
   float: right;
@@ -184,20 +184,20 @@
   vertical-align: middle;
   white-space: nowrap;
 }
-.latest-news-area .mk-call-btn .btn-call-green span{
+.latest-news-area .mk-call-btn .btn-call-green span {
   background: #fff;
-    border-radius: 100%;
-    color: #223645;
-    font-size: 20px;
-    font-weight: 600;
-    height: 50px;
-    left: 5px;
-    line-height: 50px;
-    position: absolute;
-    text-align: center;
-    top: 5px;
-    transition: .3s;
-    width: 50px;
+  border-radius: 100%;
+  color: #223645;
+  font-size: 20px;
+  font-weight: 600;
+  height: 50px;
+  left: 5px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  top: 5px;
+  transition: 0.3s;
+  width: 50px;
 }
 .latest-news-area .mk-call-btn .btn-call-green:hover {
   background: #e12454;
@@ -258,4 +258,4 @@
   .latest-news-area .mk-call-btn {
     display: none !important;
   }
-}/*# sourceMappingURL=New.css.map */
+}

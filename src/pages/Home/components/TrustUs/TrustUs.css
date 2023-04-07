@@ -1,6 +1,6 @@
 .cta-area-trust-us::before {
   background-color: rgba(19, 35, 47, 0.94);
-  content: "";
+  content: '';
   height: 100%;
   left: 0;
   position: absolute;
@@ -92,4 +92,4 @@
   .cta-area-trust-us .cta-text-trust-us .section-title .section-text h1 {
     font-size: 32px;
   }
-}/*# sourceMappingURL=TrustUs.css.map */
+}

@@ -1,7 +1,3 @@
-import React from 'react';
-
-const DoctorDetail = () => {
-  return <div>DoctorDetail</div>;
-};
-
-export default DoctorDetail;
+export default function DoctorDetail() {
+  return <h1>Detail</h1>;
+}
